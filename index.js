@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf')
 
-let range = 129
+let range = 312
 const bot = new Telegraf("5409192900:AAFYd6IvCgBA5o4n6VlRlYoVX7XFUY-yFKw")
 bot.start((ctx) => ctx.reply('Hello, user'))
 bot.hears(`hello`, (ctx) => {
